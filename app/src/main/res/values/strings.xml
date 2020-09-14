@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">华为能力</string>
+
+    <string name="android">Android 能力</string>
+
+    <string name="hms">HMS 能力</string>
+    <string name="fido">Fido 能力</string>
+    <string name="fido_bioauthn">BioAuthn 能力</string>
+    <string name="fido_android">BioAuthn Android 能力</string>
+</resources>

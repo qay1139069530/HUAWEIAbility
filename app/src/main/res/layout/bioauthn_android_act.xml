@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.hms.fido.BioAuthnAndroidAct">
+
+    <include layout="@layout/view_title_viewstub" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckBioAuthn"
+        android:text="校验是否支持指纹登陆"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBioAuthnAuth"
+        android:textColor="@color/colorPrimary"
+        android:text="指纹认证"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBioAuthnLogin"
+        android:textColor="@color/colorPrimary"
+        android:text="指纹登陆"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorPrimary" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

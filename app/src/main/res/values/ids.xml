@@ -1,0 +1,9 @@
+<resources>
+
+    <!--title view-->
+    <item name="view_title_viewstub" type="id"/>
+    <item name="view_title_coordinatorLayout" type="id"/>
+    <item name="view_title_toolbar" type="id"/>
+    <item name="view_title_toolbar_title" type="id"/>
+
+</resources>
